@@ -1,11 +1,12 @@
 # Установка и запуск
-**!!!ВНИМАНИЕ!!! ДЛЯ ЗАПУСКА ТРЕБУЕТСЯ `Python 3.12` ( используются generic-types )**
+**!!!ВНИМАНИЕ!!! ДЛЯ ЗАПУСКА ТРЕБУЕТСЯ `Python 3.12` ( используются generic-types ) ИЛИ ЗАПУСК ЧЕРЕЗ `Docker`**
+
 1. ```git clone git@github.com:ilayq/effective_mobile_test.git```
 2. ```cd effective_mobile_test```
 3. Тесты: 
     ```python3 -m unittest ```
 4. Запуск
-    ```python3 main.py```
+    ```python3 main.py``` или `docker build -t <tag_name> . && docker run -it <tagname>`
 
 ### Комментарии по проекту
 ##### Архитектура
